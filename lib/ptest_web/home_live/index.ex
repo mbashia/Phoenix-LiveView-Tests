@@ -1,5 +1,5 @@
 defmodule PtestWeb.HomeLive.Index do
-  use TestingLiveviewWeb, :live_view
+  use PtestWeb, :live_view
 
   def mount(_params, _session, socket) do
     {:ok, assign(socket, :counter, 0)}
